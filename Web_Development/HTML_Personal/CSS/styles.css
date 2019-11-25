@@ -1,0 +1,16 @@
+body {
+    background-color: #69779b;
+    text-align: center;
+    padding-top: 100px;
+    font-family: serif;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
