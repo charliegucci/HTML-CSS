@@ -1,0 +1,23 @@
+div {
+
+    border: solid 1px black;
+    min-height: 100VH;
+    max-height: 100VH;
+    overflow: hidden;
+    background-image: url("visa_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 25%;
+
+}
