@@ -90,10 +90,14 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #30e3ca;
   color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
 }
 
 .testi_bird {
@@ -111,4 +115,14 @@ p {
 .logo {
   width: 18%;
   margin: 20px 20px 40px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
 }
