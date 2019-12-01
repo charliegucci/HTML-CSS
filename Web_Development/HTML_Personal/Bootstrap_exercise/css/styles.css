@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-.Title {
+.title_word {
   font-family: "Montserrat-Black", sans-serif;
   font-weight: bolder;
   font-size: 3rem;
@@ -12,7 +12,7 @@
 }
 
 .container {
-  padding: 3% 15%;
+  padding: 3% 15% 12%;
 }
 
 body {
@@ -55,8 +55,10 @@ p {
 
 /* Download Button */
 
+
 .download_button {
   margin: 5% 3% 5% 0;
+
 }
 
 /* Title Image */
@@ -64,12 +66,16 @@ p {
   width: 60%;
   transform: rotate(20deg);
   margin-left: 15%;
+  position: absolute;
+
 }
 
 /* Features Section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .features_circle {
@@ -125,4 +131,23 @@ p {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  .title_word {
+    text-align: center;
+  }
+
+  .download_button {
+    margin: 5% 3% 5% 18%;
+
+  }
+
+  .title_photo {
+    position: static;
+    transform: rotate(0);
+    margin-left: 20%;
+  }
+
 }

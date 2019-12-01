@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+
+}
+
 body {
     color: #40514e;
     text-align: center;
@@ -47,6 +52,15 @@ a:hover {
     color: #d7eaea;
 }
 
+.bldg {
+    padding-bottom: 50px;
+    margin-top: 5%;
+}
+
+/* .top {
+    padding-bottom: 100px;
+} */
+
 .bottom-cloud {
     position: absolute;
     left: 250px;
@@ -56,7 +70,10 @@ a:hover {
     position: absolute;
     right: 250px;
     top: 150px;
+
 }
+
+
 
 .middle {
     margin: 150px auto 100px auto;
@@ -83,9 +100,11 @@ a:hover {
 }
 
 .profile {
-    width: 35%;
-    border-radius: 10%;
-    margin: auto;
+    width: 5%;
+    border-radius: 100%;
+    left: 5rem;
+    position: fixed;
+    top: 3rem;
 }
 
 
