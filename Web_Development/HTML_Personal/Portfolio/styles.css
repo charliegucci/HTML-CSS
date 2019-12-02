@@ -7,10 +7,12 @@ body {
     color: #40514e;
     text-align: center;
     font-family: 'Merriweather', serif;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
-    padding-top: 200px;
+    padding-top: 140px;
     color: #9692af;
     margin: 0 auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -52,24 +54,140 @@ a:hover {
     color: #d7eaea;
 }
 
-.bldg {
-    padding-bottom: 50px;
-    margin-top: 5%;
+.top {
+    padding-bottom: 320px;
 }
 
-/* .top {
-    padding-bottom: 100px;
-} */
+.bldg {
+    /* padding-bottom: 50px;
+    margin-top: 5%; */
+    position: absolute;
+    top: 360px;
+    right: -400px;
+    width: 20%;
+    opacity: .7;
+    animation: sky 40s 2s linear infinite reverse;
+
+}
+
+.bldg1 {
+    position: absolute;
+    top: 360px;
+    right: -400px;
+    width: 20%;
+    opacity: .7;
+    animation: sky 40s 10s linear infinite reverse;
+}
+
+.bldg2 {
+    position: absolute;
+    top: 360px;
+    right: -400px;
+    width: 20%;
+    opacity: .7;
+    animation: sky 40s 18s linear infinite reverse;
+}
+
+.bldg3 {
+    position: absolute;
+    top: 360px;
+    right: -400px;
+    width: 20%;
+    opacity: .7;
+    animation: sky 40s 26s linear infinite reverse;
+}
+
+.bldg4 {
+    position: absolute;
+    top: 360px;
+    right: -400px;
+    width: 20%;
+    opacity: .7;
+    animation: sky 40s 34s linear infinite reverse;
+}
+
+.road {
+
+    background-color: #9692af;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.lines {
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.mario {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    width: 5%;
+    animation: drive 33s both infinite linear,
+        jump .6s 15s ease;
+}
+
+.luigi {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 5%;
+    animation: drive 35s both infinite linear;
+}
+
+@keyframes drive {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(1800px);
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: -40px
+    }
+
+    50% {
+        top: -100px
+    }
+
+    100% {
+        top: -40px
+    }
+}
+
+@keyframes sky {
+    from {
+        left: -200px
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
 
 .bottom-cloud {
     position: absolute;
     left: 250px;
+    opacity: .6;
+    animation: sky 30s linear infinite reverse;
 }
 
 .top-cloud {
     position: absolute;
-    right: 250px;
-    top: 150px;
+    /* right: 250px; */
+    top: 100px;
+    opacity: .9;
+    animation: sky 20s linear infinite reverse;
 
 }
 
@@ -105,6 +223,7 @@ a:hover {
     left: 5rem;
     position: fixed;
     top: 3rem;
+    opacity: .8;
 }
 
 
