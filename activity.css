@@ -1,0 +1,41 @@
+h1 {
+  width: 100%;
+  border-style: solid;
+}
+
+.dot {
+  height: 100px;
+  width: 7%;
+  background-color: #dd1010;
+  border-radius: 100%;
+  position: absolute;
+  top: 500px;
+  left: 650px;
+  -webkit-animation: moves 3s linear infinite;
+          animation: moves 3s linear infinite;
+}
+
+@-webkit-keyframes moves {
+  0% {
+    top: 600px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 600px;
+  }
+}
+
+@keyframes moves {
+  0% {
+    top: 600px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 600px;
+  }
+}
+/*# sourceMappingURL=activity.css.map */

@@ -1,0 +1,32 @@
+h1 {
+    width: 100%;
+    border-style: solid;
+}
+
+.dot {
+    height: 100px;
+    width: 7%;
+    background-color: rgb(221, 16, 16);
+    border-radius: 100%;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    animation: moves 3s linear infinite;
+
+}
+
+.dot:hover {}
+
+@keyframes moves {
+    0% {
+        top: 600px;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 600px;
+    }
+}
